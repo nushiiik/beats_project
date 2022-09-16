@@ -1,0 +1,14 @@
+.delivery {
+	height: 100vh;
+	min-height: 650px;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	background: url('../../img/bg/bg_form.png') center bottom / cover no-repeat;
+	background-color: #181818;
+	color: white;
+	&__title {
+		text-align: center;
+		margin-bottom: 60px;
+	}
+}

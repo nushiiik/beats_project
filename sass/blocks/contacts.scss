@@ -1,0 +1,12 @@
+.contacts {
+	font-size: 18px;
+	&__phone {
+	display: flex;
+	align-items: center;
+	}
+	&__img {
+	width: 14px;
+	height: 14px;
+	margin-right: 6px;
+	}
+}

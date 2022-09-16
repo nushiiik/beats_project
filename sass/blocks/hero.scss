@@ -1,0 +1,33 @@
+.hero {
+	background-color: #F5F5F5;
+	height: 100vh;
+	min-height: 650px;
+	position: relative;
+	&__container {
+		background: url("../../img/bg/headphone.png") right center / 50% auto no-repeat;
+		display: flex;
+		flex-direction: column;
+		justify-content: space-between;
+		height: 100%;
+		padding: 25px 0 65px 0;
+	}
+	&__description {
+		width: 40%;
+	}
+	&__title {
+		margin-bottom: 22px;
+	}
+	&__subtitle {
+		font-family: "Alegreya Sans";
+		font-size: 21px;
+		line-height: (25.2px/21px);
+		margin-bottom: 36px;
+		padding-right: 15%;
+	}
+	&::after {
+		content: url('../../img/bg/decorate_1.png');
+		position: absolute;
+		bottom: -28px;
+		right: 20%;
+	}
+}

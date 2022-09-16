@@ -1,0 +1,11 @@
+.advantage {
+	display: flex;
+	max-width: 165px;
+	&__icon {
+		width: 41px;
+		margin-right: 11px;
+	}
+	&__text {
+		line-height: (18px/16px);
+	}
+}
