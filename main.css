@@ -130,7 +130,7 @@ address {
   position: relative;
 }
 .hero__container {
-  background: url("../../img/bg/headphone.png") right center/50% auto no-repeat;
+  background: url("./img/bg/headphone.png") right center/50% auto no-repeat;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -494,7 +494,7 @@ address {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  background: url("../../img/bg/bg_form.png") center bottom/cover no-repeat;
+  background: url("./img/bg/bg_form.png") center bottom/cover no-repeat;
   background-color: #181818;
   color: white;
 }
