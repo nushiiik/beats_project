@@ -20,13 +20,13 @@
 		}
 	}
 	&::before {
-		content: url('../../img/bg/decorate_3.png');
+		content: url('/img/bg/decorate_3.png');
 		position: absolute;
 		bottom: -25px;
 		left: 6%;
 	}
 	&::after {
-		content: url('../../img/bg/decorate_4.png');
+		content: url('/img/bg/decorate_4.png');
 		position: absolute;
 		bottom: -32px;
 		right: 10%;
