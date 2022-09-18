@@ -4,7 +4,7 @@
 	min-height: 650px;
 	position: relative;
 	&__container {
-		background: url('/img/bg/headphone.png') right center / 50% auto no-repeat;
+		background: url('./img/bg/headphone.png') right center / 50% auto no-repeat;
 		display: flex;
 		flex-direction: column;
 		justify-content: space-between;
@@ -25,7 +25,7 @@
 		padding-right: 15%;
 	}
 	&::after {
-		content: url('/img/bg/decorate_1.png');
+		content: url('./img/bg/decorate_1.png');
 		position: absolute;
 		bottom: -28px;
 		right: 20%;
