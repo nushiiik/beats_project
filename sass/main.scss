@@ -1,5 +1,6 @@
 @import "layout/vars.scss";
 @import "layout/fonts.scss";
+@import "layout/media.scss";
 @import url("https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css");
 @import "layout/base.scss";
 
@@ -19,6 +20,8 @@
 @import "blocks/interactive-avatar.scss";
 @import "blocks/delivery.scss";
 @import "blocks/form.scss";
+@import "blocks/about.scss";
 @import "blocks/footer.scss";
 @import "blocks/socials.scss";
 @import "blocks/fixed-menu.scss";
+@import "blocks/hamburger.scss";

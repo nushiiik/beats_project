@@ -1,15 +1,20 @@
 .card {
 	background-color: #F8FAF9;
-	padding: 42px 107px 42px 42px;
+	padding: 2.625rem 6.6875rem 2.625rem 2.625rem;
 	display: flex;
 	align-items: center;
-	margin-bottom: 15px;
+	margin-bottom: 0.9375rem;
 	position: relative;
 	overflow: hidden;
 	&__pic {
-		width: 253px;
-		height: 264px;
-		margin-right: 38px;
+		width: 15.8125rem;
+		height: 16.5rem;
+		margin-right: 2.375rem;
+		@include tablet {
+			width: 8.667rem;
+			height: 8.667rem;
+			margin: 0 0 2.133rem 0;
+		}
 	}
 	&__img {
 		object-fit: cover;
@@ -20,30 +25,45 @@
 		flex: 1;
 	}
 	&__title {
-		font-size: 24px;
+		font-size: 1.5rem;
 		font-weight: 700;
 		line-height: (27.77px/24px);
-		margin-bottom: 27px;
+		margin-bottom: 1.6875rem;
+		@include tablet {
+			margin-bottom: 1.067rem
+		}
 	}
 	&__text {
 		color: $grey;
 		line-height: (18px/16px);
-		margin-bottom: 40px;
+		margin-bottom: 2.5rem;
+		@include tablet {
+			margin-bottom: 1.067rem
+		}
 	}
 	&__author {
-		font-size: 18px;
+		font-size: 1.125rem;
 		font-weight: 700;
 	}
 	&::before {
 		content: "";
 		display: block;
-		width: 83px;
-		height: 83px;
+		width: 5.1875rem;
+		height: 5.1875rem;
 		background-color: white;
 		border-radius: 50%;
 		position: absolute;
 		left: 50%;
 		transform: translateX(-50%);
-		top: -61px;
+		top: -3.325rem;
+		@include tablet {
+			top: -3rem
+		}
+	}
+	@include tablet {
+		flex-direction: column;
+		text-align: center;
+		align-items: center;
+		padding: 3.733rem 1.6rem;
 	}
 }

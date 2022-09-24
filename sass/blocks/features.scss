@@ -16,9 +16,22 @@
 		&::after{
 			content: url('./img/bg/seporator.png');
 			position: absolute;
-			top: 50px;
+			top: 3.125rem;
 			right: 0;
 			transform: translateX(50%);
 		}
+		@include tablet {
+			padding: 0 2%;
+			&::after {
+				display: none;
+			}
+		}
+		@include phone {
+			padding: 0;
+			margin-bottom: 1.5rem;
+		}
+	}
+	@include phone {
+		flex-direction: column;
 	}
 }
