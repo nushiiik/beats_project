@@ -17,10 +17,18 @@ a:focus,a:active {
 nav,footer,header,aside {
 	display: block;
 	}
+html {
+	font-size: $fontSize;
+	@include tablet {
+		font-size: $fontSize - 1px;
+	}
+	@include phone {
+		font-size: $fontSize - 2px;
+	}
+}
 html,body {
 	height: 100%;
 	width: 100%;
-	font-size: 100%;
 	-ms-text-size-adjust: 100%;
 	-moz-text-size-adjust: 100%;
 	-webkit-text-size-adjust: 100%;
@@ -59,7 +67,6 @@ h1,h2,h3,h4,h5,h6 {
 	}
 body {
 	font-family: 'Play', sans-serif;
-	font-size: $fontSize;
 	line-height: 1.42;
 	color: $black;
 	background-color: #fff;
@@ -73,7 +80,6 @@ address {
 .wrapper {
 	position: relative;
 	width: 100%;
-	min-width: $containerWidth + 20px;
 	overflow: hidden;
 	min-height: 100%;
 	display: flex;
@@ -84,6 +90,7 @@ address {
 	flex: 1;
 }
 .container {
-	width: $containerWidth;
+	max-width: $containerWidth;
+	width: 95%;
 	margin: 0 auto;
 }
