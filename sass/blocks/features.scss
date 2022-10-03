@@ -20,18 +20,21 @@
 			right: 0;
 			transform: translateX(50%);
 		}
-		@include tablet {
+		@media screen and (max-width: 850px) {
 			padding: 0 2%;
+		}
+		@include tablet {
+			padding: 0 1%;
 			&::after {
 				display: none;
 			}
 		}
-		@include phone {
+		@media screen and (max-width: 650px) {
 			padding: 0;
 			margin-bottom: 1.5rem;
 		}
 	}
-	@include phone {
+	@media screen and (max-width: 650px) {
 		flex-direction: column;
 	}
 }

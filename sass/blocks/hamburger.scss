@@ -1,11 +1,11 @@
 .hamburger {
-  width: 26px;
-  height: 26px;
+  width: 2rem;
+  height: 2rem;
   display: none;
   flex-direction: column;
   justify-content: space-between;
   &__plank {
-    height: 4.5px;
+    height: 0.333rem;
     background: $black;
     display: block;
     border-radius: 10px;

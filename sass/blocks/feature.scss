@@ -2,7 +2,7 @@
 	text-align: center;
 	&__pic {
 		margin-bottom: 1.5rem;
-		@include phone {
+		@media screen and (max-width: 650px) {
 			margin-bottom: 0;
 			margin-right: 0.857rem;
 		}
@@ -38,7 +38,7 @@
 		color: $grey;
 		line-height: (18px/16px);
 	}
-	@include phone {
+	@media screen and (max-width: 650px) {
 		display: flex;
 		text-align: left;
 		&__content {
