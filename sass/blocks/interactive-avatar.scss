@@ -8,8 +8,11 @@
 		width: 100%;
 		height: 100%;
 		object-fit: cover;
-	}	
-	&--current {
+	}
+	&--active {
+		border-color: $red;
+	}
+	&:hover {
 		border-color: $red;
 	}
 }
