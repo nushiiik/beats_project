@@ -120,7 +120,9 @@ new AjaxForm ('#form', {
 	error:(body) => {
 		let modal = document.querySelector('#modal');
 		let btn = document.querySelector('#btn');
+		let content = document.querySelector('#content');
 
+		content.textContent = "Произошла ошибка, попробуйте позже!"
 		modal.classList.add('modal--opened');
 		btn.addEventListener('click', (e) => {
 			e.preventDefault();
@@ -130,7 +132,9 @@ new AjaxForm ('#form', {
 	success:(body) => {
 		let modal = document.querySelector('#modal');
 		let btn = document.querySelector('#btn');
+		let content = document.querySelector('#content');
 
+		content.textContent = "Сообщение отправлено, спасибо!"
 		modal.classList.add('modal--opened');
 		btn.addEventListener('click', (e) => {
 			e.preventDefault();
