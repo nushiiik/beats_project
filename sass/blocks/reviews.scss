@@ -1,5 +1,5 @@
 .reviews {
-	height: 100vh;
+	height: 100%;
 	min-height: 40.625rem;
 	display: flex;
 	flex-direction: column;
@@ -18,17 +18,5 @@
 		&:last-child {
 			margin-right: 0;
 		}
-	}
-	&::before {
-		content: url('./img/bg/decorate_3.png');
-		position: absolute;
-		bottom: -1.5625rem;
-		left: 6%;
-	}
-	&::after {
-		content: url('./img/bg/decorate_4.png');
-		position: absolute;
-		bottom: -2rem;
-		right: 10%;
 	}
 }

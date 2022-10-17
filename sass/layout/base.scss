@@ -81,13 +81,12 @@ address {
 	position: relative;
 	width: 100%;
 	overflow: hidden;
-	min-height: 100%;
-	display: flex;
-	flex-direction: column;
+	height: 100%;
 }
 .wrapper__content {
-	position: relative;
-	flex: 1;
+	height: 100%;
+	transition: transform 1s;
+	will-change: transform;
 }
 .container {
 	max-width: $containerWidth;

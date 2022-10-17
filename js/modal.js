@@ -126,6 +126,7 @@ new AjaxForm ('#form', {
 		modal.classList.add('modal--opened');
 		btn.addEventListener('click', (e) => {
 			e.preventDefault();
+
 			modal.classList.remove('modal--opened');
 		})
 	},
@@ -138,6 +139,7 @@ new AjaxForm ('#form', {
 		modal.classList.add('modal--opened');
 		btn.addEventListener('click', (e) => {
 			e.preventDefault();
+			
 			modal.classList.remove('modal--opened');
 		})
 	}

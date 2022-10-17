@@ -13,6 +13,14 @@
 				}
 			}
 		}
+		&:hover {
+			.fixed-menu__link {
+				border-color: $red;
+				&::before {
+				background-color: $red;
+				}
+			}
+		}
 	}
 	&__link {
 		display: block;
@@ -37,5 +45,26 @@
 	}
 	@include tablet {
 		display: none;
+	}
+	&--shadowed {
+		.fixed-menu__item--current {
+			.fixed-menu__link {
+				border-color: $grey;
+			}
+			.fixed-menu__link::before {
+				background-color: $grey;
+			}
+		}
+		.fixed-menu__item:hover {
+			.fixed-menu__link {
+				border-color: $grey;
+			}
+			.fixed-menu__link::before {
+				background-color: $grey;
+			}
+		}
+		.fixed-menu__link::before {
+			background-color: white;
+		}
 	}
 }
