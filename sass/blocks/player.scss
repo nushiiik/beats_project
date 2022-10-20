@@ -17,6 +17,9 @@
 			transform: translate(-50%, -50%);
 		}
 	}
+	&__elem {
+		width: 100%;
+	}
 	&__controls {
 		position: absolute;
 		bottom: 0;
@@ -28,6 +31,13 @@
 		align-items: center;
 		justify-content: space-between;
 		padding: 0 1rem;
+		@include tablet {
+			bottom: -1.5rem;
+		}
+		@include phone {
+			height: 3rem;
+			bottom: -3rem;
+		}
 	}
 	&__start {
 		width: 0.625rem;
@@ -48,6 +58,12 @@
 			left: 0;
 			right: 0;
 			transform: translateY(-50%);
+		}
+		@media screen and (max-width: 600px) {
+			width: 18.625rem;
+		}
+		@include phone {
+			width: 12.625rem;
 		}
 	}
 	&__playback-button {

@@ -1,5 +1,3 @@
-$(document).ready(() => {
-
 	const mesureWidth = item => {
 		let reqItemWidth = 0;
 
@@ -65,5 +63,3 @@ $(document).ready(() => {
 
 		closeEveryItemInContainer($('.colors__list'));
 	});
-
-});

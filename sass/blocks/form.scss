@@ -22,7 +22,7 @@
 		}
 	}
 	&__title {
-		line-height: (18px/16px);
+		line-height: calc(18px/16px);
 		margin-bottom: 0.1875rem;
 	}
 	&__input {

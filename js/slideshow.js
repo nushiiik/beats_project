@@ -1,5 +1,3 @@
-$(document).ready(() => {
-
 	const findBlockByAttr = (attribut) => {
 		return $('.card__item').filter((ndx, item) => {
 			return $(item).attr('data-linked') == attribut;
@@ -17,5 +15,3 @@ $(document).ready(() => {
 		itemToShow.addClass('card__item--active').siblings().removeClass('card__item--active');
 		currentItem.addClass('interactive-avatar--active').siblings().removeClass('interactive-avatar--active');
 	});
-
-});

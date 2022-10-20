@@ -1,5 +1,3 @@
-$(document).ready(() => {
-
 	const openItem = item => {
 		const container = item.closest('.team__item');
 		const contentBlock = container.find('.team__content');
@@ -32,6 +30,3 @@ $(document).ready(() => {
 			openItem(currentItem);
 		}
 	});
-
-});
-

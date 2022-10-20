@@ -54,7 +54,7 @@
 		font-weight: 700;
 		margin-bottom: 0.6875rem;
 		color: $black;
-		line-height: (20.83px/16px);
+		line-height: calc(20.83px/16px);
 		position: relative;
 		cursor: pointer;
 		&::after {
@@ -80,7 +80,7 @@
 	}
 	&__content-wrap {
 		padding-bottom: 0.3125rem;
-		line-height: (18.51px/16px);
+		line-height: calc(18.51px/16px);
 	}
 	&__position {
 		color: black;

@@ -1318,6 +1318,9 @@ address {
   -webkit-transform: translate(-50%, -50%);
           transform: translate(-50%, -50%);
 }
+.player__elem {
+  width: 100%;
+}
 .player__controls {
   position: absolute;
   bottom: 0;
@@ -1335,6 +1338,17 @@ address {
       -ms-flex-pack: justify;
           justify-content: space-between;
   padding: 0 1rem;
+}
+@media screen and (max-width: 768px) {
+  .player__controls {
+    bottom: -1.5rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .player__controls {
+    height: 3rem;
+    bottom: -3rem;
+  }
 }
 .player__start {
   width: 0.625rem;
@@ -1357,6 +1371,16 @@ address {
   right: 0;
   -webkit-transform: translateY(-50%);
           transform: translateY(-50%);
+}
+@media screen and (max-width: 600px) {
+  .player__playback {
+    width: 18.625rem;
+  }
+}
+@media screen and (max-width: 480px) {
+  .player__playback {
+    width: 12.625rem;
+  }
 }
 .player__playback-button {
   position: absolute;

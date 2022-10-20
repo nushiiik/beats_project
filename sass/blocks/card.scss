@@ -48,7 +48,7 @@
 	&__title {
 		font-size: 1.5rem;
 		font-weight: 700;
-		line-height: (27.77px/24px);
+		line-height: calc(27.77px/24px);
 		margin-bottom: 1.6875rem;
 		@include tablet {
 			margin-bottom: 1.067rem
@@ -56,7 +56,7 @@
 	}
 	&__text {
 		color: $grey;
-		line-height: (18px/16px);
+		line-height: calc(18px/16px);
 		margin-bottom: 2.5rem;
 		@include tablet {
 			margin-bottom: 1.067rem
